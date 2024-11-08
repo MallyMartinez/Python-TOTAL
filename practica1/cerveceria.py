@@ -22,5 +22,19 @@ print('Tu cerveza se llama \n"' + uno + ' ' + dos + '"')
 
 
 #? Ejemplo del curso 
+#1ro paso
+print("El nombre de tu cerveceria es 'palabra1 palabra2'")
+
+#2do paso
+print("El nombre de tu cerveceria es '" + palabra1 + " " + palabra2 + "'")
+
+#3ro paso
+print("El nombre de tu cerveceria es '" + input("Que ciudad te gustaria visitar?: ") + " " + palabra2 + "'")
+
+#4to paso
+print("El nombre de tu cerveceria es '" + input("Que ciudad te gustaria visitar?: ") 
+      + " " + input("Cual es tu color favorito?: ") + "'")
+
+#Paso final
 print("El nombre de tu cerveza\nes '" + input("Que ciudad te gustaria visitar?: ") 
-      + " " + input("Cual es tu color favorito?: ") + "'\nFelicitaciones!")
+     + " " + input("Cual es tu color favorito?: ") + "'\nFelicitaciones!")
